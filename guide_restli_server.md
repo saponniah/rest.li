@@ -1437,7 +1437,7 @@ However, there are use cases where the server will attach additional data to the
 simply doesn't have the whole entities. Returning the entities in the BATCH_PARTIAL_UPDATE response saves the client
 another GET request.
 
-Starting in Rest.li version 25.0.5(?), we provide the developer the option to
+Starting in Rest.li version 25.0.6, we provide the developer the option to
 return the patched entities. To use this feature, add a @`ReturnEntity`
 annotation to the method that implements BATCH_PARTIAL_UPDATE. The return type of the
 method must be `BatchUpdateEntityResult`.
